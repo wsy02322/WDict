@@ -22,11 +22,10 @@ A lightweight Android dictionary app powered by the [OpenRouter](https://openrou
 ### Build & run
 
 1. Clone the repo and open it in **Android Studio**.  
-   Android Studio will download the Gradle wrapper and sync automatically.
+   Android Studio will sync automatically.
 
-2. If building from the command line, first generate the Gradle wrapper jar:
+2. Build a debug APK from the command line:
    ```sh
-   gradle wrapper --gradle-version=8.4
    ./gradlew assembleDebug
    ```
 
@@ -34,6 +33,17 @@ A lightweight Android dictionary app powered by the [OpenRouter](https://openrou
    ```sh
    ./gradlew installDebug
    ```
+
+### Build a debug APK with GitHub Actions
+
+1. Open the repository on GitHub.
+2. Click **Actions**.
+3. Click **Build Debug APK** in the left sidebar.
+4. Click **Run workflow**.
+5. Choose the branch and click **Run workflow** again.
+6. Open the new workflow run after it starts.
+7. Wait for the **build** job to finish successfully.
+8. In **Artifacts**, click **debug-apk** to download the generated APK.
 
 ### OpenRouter API key
 
