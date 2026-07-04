@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WDict</string>
+    <string name="title_settings">Settings</string>
+
+    <!-- Hints -->
+    <string name="hint_enter_word">Enter a word or phrase</string>
+    <string name="hint_api_key">OpenRouter API Key</string>
+    <string name="hint_model">Model (leave blank for default)</string>
+    <string name="hint_model_example">e.g. openai/gpt-4o-mini  ·  google/gemma-2-9b-it:free</string>
+
+    <!-- Buttons -->
+    <string name="button_lookup">Look Up</string>
+    <string name="button_save">Save</string>
+    <string name="button_close">Close</string>
+    <string name="button_open_in_app">Open in App</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Messages -->
+    <string name="settings_saved">Settings saved</string>
+    <string name="error_no_api_key">No API key set.\n\nPlease go to Settings (⋮) and add your OpenRouter API key.</string>
+    <string name="error_lookup_failed">Lookup failed: %1$s</string>
+</resources>
