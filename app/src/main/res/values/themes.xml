@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.WDict" parent="Theme.Material3.DayNight.NoActionBar" />
+
+    <!-- Dialog-style theme used by ProcessTextActivity -->
+    <style name="Theme.WDict.Dialog" parent="Theme.Material3.DayNight.Dialog">
+        <item name="android:windowMinWidth">88%</item>
+        <item name="android:windowMaxWidth">92%</item>
+    </style>
+
+</resources>

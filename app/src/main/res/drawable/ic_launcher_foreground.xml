@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Simple "W" letter mark as the app foreground icon.
+  The path draws a white "W" centred in a 108×108 dp canvas
+  (standard adaptive icon foreground size).
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="
+          M22,28 L33,28 L42,62 L51,28 L57,28 L66,62 L75,28 L86,28
+          L72,80 L62,80 L54,50 L46,80 L36,80 Z" />
+
+</vector>
